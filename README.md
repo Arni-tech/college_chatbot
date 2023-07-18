@@ -6,9 +6,8 @@
 
 College Chatbot is a question-and-answer retrieval chatbot built on the LangChain framework. Its main objective is to provide answers to general questions about Thapar Institute of Engineering and Technology.
 
-This repository includes the necessary training and inference engine files required for the chatbot's operation.
+This repository includes the necessary training and inference engine,and frontend files required for the chatbot's operation.
 
-Please note that the frontend interface for the chatbot was not developed by me, and therefore I cannot take credit for it. As a result, the frontend code is not included in this repository.
 
 ## Database Files
 
@@ -26,10 +25,6 @@ To use the College Chatbot locally, follow these steps:
 ## Usage
 
 Once the chatbot application is running, you can interact with it by asking questions about Thapar Institute of Engineering and Technology. Enter your question in the input field and click the submit button to receive a response from the chatbot.
-
-## Contributing
-
-Contributions to the College Chatbot project are welcome! If you would like to contribute, please follow the guidelines in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
 ## License
 
