@@ -1,0 +1,154 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #333;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  padding: 20px;
+  overflow: auto;
+}
+
+.main {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  margin-top: 0;
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#user-input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #fff;
+  width: 100%;
+  max-width: 600px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+.loading-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  background-color: #5cb85c;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 10px;
+}
+
+.loading-button:hover {
+  background-color: #449d44;
+}
+
+.input-box {
+  background-color: #a9a9a9;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  text-align: left;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+.response-box {
+  background-color: #222;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  text-align: left;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+.response-box a {
+  color: aquamarine;
+}
+
+.loading-animation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+
+.loading-animation .dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-right: 8px;
+  animation: dot-scale 1s ease-in-out infinite;
+}
+
+.loading-animation .slash {
+  display: inline-block;
+  font-size: 24px;
+  animation: slash-rotate 1s linear infinite;
+}
+
+@keyframes dot-scale {
+  0%,
+  100% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
+@keyframes slash-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.info {
+  text-align: center;
+  margin-top: 0;
+  color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  .main {
+    margin-top: 20px;
+  }
+}
