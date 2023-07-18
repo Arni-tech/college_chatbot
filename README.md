@@ -18,9 +18,8 @@ The database files used in this chatbot system can be downloaded locally from th
 To use the College Chatbot locally, follow these steps:
 
 1. Clone this repository: `git clone https://github.com/your-username/college_chatbot.git`
-2. Install the required dependencies: `pip install -r requirements.txt`
-3. Run the chatbot application: `python app.py`
-4. Access the chatbot interface in your web browser at `http://localhost:8000`
+2. Run the chatbot application: `python main.py`
+4. Access the chatbot interface in your web browser at `http://localhost:8000/demo/docs`
 
 ## Usage
 
