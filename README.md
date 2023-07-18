@@ -42,7 +42,7 @@ This project is licensed under the terms of the [MIT License](LICENSE).
 
 ## Acknowledgments
 
-We would like to acknowledge the contributions of the LangChain framework developers and the support from the Thapar Institute of Engineering and Technology community.
+We would like to acknowledge the contributions of the LangChain framework developers and the support from Integra Micro Systems Staff
 
 If you have any questions or feedback, please feel free to reach out.
 
