@@ -39,6 +39,6 @@ We would like to acknowledge the contributions of the LangChain framework develo
 If you have any questions or feedback, please feel free to reach out.
 
 Here is a snapshot of the working project:
-[Chatbot-Screenshot](https://github.com/Arni-tech/college_chatbot/blob/f436ad2667290f41c4ccc98295da20e47a43014c/Screenshot%202023-07-18%20142621.jpg)
+(https://github.com/Arni-tech/college_chatbot/blob/f436ad2667290f41c4ccc98295da20e47a43014c/Screenshot%202023-07-18%20142621.jpg)
 
 
