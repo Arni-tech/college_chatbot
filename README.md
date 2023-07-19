@@ -25,6 +25,9 @@ To use the College Chatbot locally, follow these steps:
 
 Once the chatbot application is running, you can interact with it by asking questions about Thapar Institute of Engineering and Technology. Enter your question in the input field and click the submit button to receive a response from the chatbot.
 
+##Limitations
+1.  Certain batches formed in training were of a size greater than what a pegasus model could process, limiting the range of questions that could be answered.
+2.  FAISS requires the questions asked to be context specific in order to recieve a satisfactory answer
 
 ## Authors
 
@@ -39,5 +42,6 @@ If you have any questions or feedback, please feel free to reach out.
 
 Here is a snapshot of the working project:
 [chatbot-screenshot](https://github.com/Arni-tech/college_chatbot/blob/f436ad2667290f41c4ccc98295da20e47a43014c/Screenshot%202023-07-18%20142621.jpg)
+
 
 
