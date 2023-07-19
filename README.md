@@ -25,7 +25,7 @@ To use the College Chatbot locally, follow these steps:
 
 Once the chatbot application is running, you can interact with it by asking questions about Thapar Institute of Engineering and Technology. Enter your question in the input field and click the submit button to receive a response from the chatbot.
 
-##Limitations
+## Limitations
 1.  Certain batches formed in training were of a size greater than what a pegasus model could process, limiting the range of questions that could be answered.
 2.  FAISS requires the questions asked to be context specific in order to recieve a satisfactory answer
 
