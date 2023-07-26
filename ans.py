@@ -28,7 +28,7 @@ class Ans_frm:
         
 
     def extract_answer(self, context):
-        model_ckpt='google/pegasus-cnn_dailymail'
+        model_ckpt='pszemraj/pegasus-x-large-book-summary'
         classifier = pipeline('summarization', model=model_ckpt)
         text=context
         summary =classifier(text)
