@@ -4,7 +4,7 @@
 
 ## Description
 
-College Chatbot is a question-and-answer retrieval chatbot built on the LangChain framework. Its main objective is to provide answers to general questions about Thapar Institute of Engineering and Technology.
+College Chatbot is a question-and-answer chatbot built on the LangChain framework. Its main objective is to provide answers to general questions about Thapar Institute of Engineering and Technology.
 
 This repository includes the necessary training and inference engine,and frontend files required for the chatbot's operation.
 
